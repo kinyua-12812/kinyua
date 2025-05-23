@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background sun -->
+  <circle cx="64" cy="64" r="50" fill="#FF715B" opacity="0.15"></circle>
+  
+  <!-- Leaf shape -->
+  <path d="M64,24 C78,44 78,84 64,104 C50,84 50,44 64,24 Z" fill="#2C6E49"></path>
+  
+  <!-- Solar rays -->
+  <g stroke="#FF715B" stroke-width="2">
+    <line x1="64" y1="0" x2="64" y2="16"></line>
+    <line x1="64" y1="112" x2="64" y2="128"></line>
+    <line x1="0" y1="64" x2="16" y2="64"></line>
+    <line x1="112" y1="64" x2="128" y2="64"></line>
+    <line x1="20" y1="20" x2="30" y2="30"></line>
+    <line x1="98" y1="98" x2="108" y2="108"></line>
+    <line x1="20" y1="108" x2="30" y2="98"></line>
+    <line x1="98" y1="30" x2="108" y2="20"></line>
+  </g>
+</svg>

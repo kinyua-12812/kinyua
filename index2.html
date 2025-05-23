@@ -1,0 +1,14 @@
+<button onclick="toggleMenu()">☰</button>
+<nav id="menu" style="display: none;">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.style.display = (menu.style.display === "none") ? "block" : "none";
+  }
+</script>
+
